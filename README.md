@@ -1,6 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Flight Assistant
+
+An intelligent flight booking assistant powered by AI, built with Next.js and Vercel AI SDK.
+
+## Features
+
+- 🔍 Real-time flight search
+- ✈️ Flight details lookup
+- 💬 Natural language interaction
+- 🌙 Dark mode support
+- ⚡ Real-time streaming responses
+- 🎨 Modern, glassy UI design
+
+## Tech Stack
+
+- Next.js 14
+- Vercel AI SDK
+- TailwindCSS
+- TypeScript
+- React Server Components
 
 ## Getting Started
+
+1. Clone the repository:
+
+```bash
+git clone <your-repo-url>
+```
 
 First, run the development server:
 
