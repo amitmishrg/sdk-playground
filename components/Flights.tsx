@@ -24,6 +24,11 @@ export const Flights = ({ flights }: FlightsProps) => {
 
           <div
             onClick={async () => {
+              setMessages((messages: ReactNode[]) => [
+                ...messages,
+                `lookupFlight ${result.flightNumber}`,
+              ]);
+
               const display = await submitUserMessage(
                 `lookupFlight ${result.flightNumber}`
               );
